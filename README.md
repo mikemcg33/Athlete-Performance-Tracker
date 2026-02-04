@@ -1,3 +1,4 @@
+# Previous READ.MD
 # Athlete-Performance-Tracker
 ---
 
@@ -182,3 +183,22 @@ Stores Spotify authentication data separately from user profiles.
 * Easily extensible to social features, additional workout types, or advanced analytics
 
 ---
+
+# New READ.MD
+# Training Performance Analytics
+
+Backend system for tracking and analyzing athlete training data over time.
+
+## Tech Stack
+- Python
+- FastAPI
+- PostgreSQL (planned)
+
+## Features (Planned)
+- Store training sessions
+- Track performance metrics
+- Analyze trends over time
+
+## Running the Project
+```bash
+uvicorn main:app --reload
